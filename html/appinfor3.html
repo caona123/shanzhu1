@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" href="../css/reset.css" />
+		<link rel="stylesheet" href="../css/use/style2.css" />
+		<link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css" />
+		<title></title>
+	</head>
+	<body>
+		<ul class="header">
+			<li><a href="appinfor2.html" class="fa fa-angle-left"></a></div>
+			<li>应用信息</li>
+			<li></li>
+		</ul>
+		<div class="nav_banner">
+			<img src="../img/images/banner_02.png" />
+		</div>
+		<form class="container">
+			<p class="title">应用信息</p>
+			<ul class="content">
+				<li>
+					<div><span>*</span>接口密码</div>
+					<a href="#"><span>SDK或者接口密码</span><span class="fa fa-angle-right"></span></a>
+				</li>
+				<li>
+					<div><span>*</span>通信秘钥</div>
+					<a href="#"><span>SDK接口通信加密秘钥</span><span class="fa fa-angle-right"></span></a>
+				</li>
+			</ul>
+			<p class="title">APP信息</p>
+			<ul class="content">
+				<li>
+					<div>名称</div>
+					<a href="#"><span>APP的名称</span><span class="fa fa-angle-right"></span></a>
+				</li>
+				<li>
+					<div>包名</div>
+					<a href="#"><span>APP的真实包名</span><span class="fa fa-angle-right"></span></a>
+				</li>
+				<li>
+					<div>LOGO文件</div>
+					<a href="#"><span>图片类型jpg、png大小:1M</span><span class="fa fa-angle-right"></span></a>
+				</li>
+				<li>
+					<div>APP截图</div>
+					<a href="#"><span>图片类型jpg、png大小:1M</span><span class="fa fa-angle-right"></span></a>
+				</li>
+			</ul>
+			<p class="title">H5/web信息<span>　用户注册时发送的短信内容</span></p>
+			<ul class="content">
+				<li>
+					<div>短信内容</div>
+					<a href="#"><span>长度不得超过20个字</span><span class="fa fa-angle-right"></span></a>
+				</li>
+			</ul>
+			<input type="submit" value="提交" class="sub"/>
+		</form>
+		<script>
+			window.onresize = function() {
+				change();
+			};
+			change();
+			function change() {
+				var oFs = document.documentElement.clientWidth / (320 / 20);
+				//设置根目录字体大小
+				document.documentElement.style.fontSize = oFs + 'px';
+			}
+		</script>
+	</body>
+</html>

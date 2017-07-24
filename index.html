@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="css/enter/scss.css">
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
+    <script src="js/zepto.min.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="sign">
+            <p>
+              <a href="#" style="color:#fff;">注册</a>
+            </p>
+        </div>
+    </div>
+    <div class="box">
+        <div class="ball">
+            <div class="ipts">
+                <p class="ipts_1">
+                    <span class="fa fa-mobile"></span>
+                </p>
+                <p class="ipts_2">
+                    <input type="text" placeholder="用户名/手机号码">
+                </p>
+            </div>
+            <div class="ipts">
+                <p class="ipts_1">
+                    <span class="fa fa-lock"></span>
+                </p>
+                <p class="ipts_2">
+                    <input type="password" placeholder="密码">
+                </p>
+            </div>
+            <div class="enter">
+                <div>
+                    <a style="color:#fff;" href="html/home.html">
+                        <input type="button" value="登陆">
+                    </a>
+                </div>
+            </div>
+            <div class="fotter">
+                <a href="html/passwrod.html"  style="color: #ffd974;;">忘记密码</a>
+            </div>
+        </div>
+    </div>
+</body>
+    <script>
+        (function(win,doc){
+            //浏览器缩放时
+            win.onresize=function(){
+                change();
+            };
+            change();
+            function change(){
+                var oFs=doc.documentElement.clientWidth/(320/20);
+
+                //设置根目录字体大小
+                doc.documentElement.style.fontSize=oFs+'px';
+            }
+        })(window,document);
+    </script>
+</html>

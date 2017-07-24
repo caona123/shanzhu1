@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" href="../css/base.css" />
+		<link rel="stylesheet" href="../font-awesome/css/font-awesome.css" />
+		<link rel="stylesheet" href="../css/password/pass_change2/index.css" />
+		<script src="../js/zepto.js"></script>
+		<script src="../js/password_rem.js"></script>
+		<script type="text/javascript">
+			;$(function($){
+				var flag = true;
+				$(".ipt .yanjing").click(function(){
+					if(flag){
+						$(".ipt .input").attr("type","text");
+						$(this).css("color","red");
+						flag = false;
+					}else{
+						$(".ipt .input").attr("type","password");
+						$(this).css("color","#333");
+						flag = true;
+					}
+				})
+				$(".login").click(function(){
+					$(".mengban").css("display","block");
+					$(".success").css("display","block");
+					setTimeout(function(){
+						$(".mengban").css("display","none");
+						$(".success").css("display","none");
+                        window.location.href = "../index.html";
+					},1500)
+				})
+				
+			})
+		</script>
+	</head>
+	<body>
+		<!--头部-->
+		<div class="header">
+			<p><a href="pass_enter.html" class="fa fa-angle-left"></a></p>
+			<p>修改登录密码</p>
+		</div>
+		<div class="title">
+			<a href="#">
+				请输入6-24位的密码
+			</a>
+		</div>
+		 <div class="ipt">
+		 	<p class="xiaosuo fa fa-lock"></p>
+		 	<input type="password" placeholder="输入新的登陆密码" class="input"/>
+		 	<p class="yanjing fa fa-eye"></p>
+		 </div>
+		 <div class="login">
+		 	<p><a href="#">确定</a></p>
+		 </div>
+		 <div class="mengban"></div>
+		 <div class="success">设置密码成功</div>
+	</body>
+</html>

@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none; }
+
+html,
+body {
+  width: 100%;
+  height: 100%; }
+
+.header {
+  width: 100%;
+  height: 2rem;
+  background: #ffac2c;
+  color: #FFFFFF; }
+  .header .head {
+    width: 100%;
+    height: 2rem;
+    background: #ffac2c;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    line-height: 2rem;
+    font-size: 0.8rem;
+    padding: 0 5.7rem 0 2.5%; }
+
+.stutas {
+  width: 95%;
+  margin: 0 2.5%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.95rem 3rem 0.9rem 0; }
+  .stutas .stutasImg {
+    width: 2.75rem; }
+    .stutas .stutasImg img {
+      width: 100%;
+      vertical-align: middle; }
+  .stutas .stutasTxt .Txt1 {
+    font-size: 0.8rem;
+    color: #ff651a;
+    margin-top: 0.3rem; }
+    .stutas .stutasTxt .Txt1 span {
+      color: #666666;
+      font-size: 0.5rem; }
+  .stutas .stutasTxt .Txt2 {
+    margin-top: 0.5rem;
+    color: #666666;
+    font-size: 0.5rem; }
+
+.main {
+  width: 100%;
+  padding: 0.8rem 0 0.8rem 2.5%;
+  display: flex;
+  justify-content: space-between;
+  background: #f5f5f5s; }
+  .main .left {
+    width: 50%; }
+    .main .left p {
+      height: 1.25rem;
+      line-height: 1.25rem; }
+    .main .left .num-msg {
+      font-size: 0.55rem;
+      color: #a8a8a8; }
+    .main .left .num {
+      color: #000000;
+      font-size: 0.8rem; }
+    .main .left .use {
+      font-size: 0.6rem;
+      color: #a8a8a8; }
+    .main .left .use-s {
+      font-size: 0.7rem;
+      color: #000000; }
+    .main .left a {
+      text-decoration: none; }
+      .main .left a input {
+        border: none;
+        width: 6rem;
+        height: 1.6rem;
+        color: #FFFFFF;
+        background: #fa5a2a;
+        font-size: 0.75rem;
+        border-radius: 0.3rem;
+        margin-top: 0.5rem; }
+  .main .right {
+    width: 50%; }
+    .main .right p {
+      height: 1.25rem;
+      line-height: 1.25rem; }
+    .main .right .num-msg {
+      font-size: 0.55rem;
+      color: #a8a8a8; }
+    .main .right .num {
+      color: #000000;
+      font-size: 0.8rem; }
+    .main .right .date {
+      font-size: 0.6rem;
+      color: #a8a8a8; }
+    .main .right .data-d {
+      font-size: 0.7rem;
+      color: #000000; }
+    .main .right a {
+      text-decoration: none; }
+      .main .right a input {
+        border: none;
+        width: 6rem;
+        height: 1.6rem;
+        color: #FFFFFF;
+        background: #ffac2c;
+        font-size: 0.75rem;
+        border-radius: 0.3rem;
+        margin-top: 0.5rem; }
+
+.consume {
+  width: 100%;
+  padding: 1rem 0 0.75rem 2.5%; }
+  .consume h6 {
+    font-weight: 100;
+    color: #fa5a2a; }
+  .consume img {
+    width: 90%; }
+
+.foot {
+  width: 95%;
+  margin: 0 2.5%;
+  padding: 0 0 0.5rem 0;
+  font-size: 0.6rem;
+  background: #fce1b6; }
+  .foot div {
+    height: 1.2rem;
+    line-height: 1.2rem;
+    color: #ff6616; }
+    .foot div img {
+      vertical-align: middle; }
+  .foot p:nth-of-type(1) {
+    margin-top: 0.2rem; }
+  .foot p {
+    height: 1.2rem;
+    line-height: 1.2rem;
+    color: #FF6616;
+    text-align: center; }
+
+/*# sourceMappingURL=use-details.css.map */

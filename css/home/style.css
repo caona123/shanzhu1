@@ -1,0 +1,123 @@
+@import url(../reset.css);
+html, body {
+  height: 100%;
+  background: #F5F5F5; }
+
+header {
+  width: 100%;
+  text-align: center;
+  padding: 2.1rem 0;
+  background: #FFAB25; }
+  header > a > img {
+    width: 4.125rem;
+    height: 100%;
+    margin-bottom: 0.65rem; }
+  header > a:hover {
+    text-decoration: none; }
+  header > p {
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 5.575rem; }
+    header > p > span {
+      font-size: 0.4rem; }
+    header > p > span:nth-child(2) {
+      display: block;
+      width: 3rem;
+      height: 0.85rem;
+      line-height: 0.85rem;
+      background: #FFC905;
+      border-radius: 5px;
+      text-align: center;
+      margin-left: 0.2rem;
+      font-size: 0.4rem; }
+
+.content_1 {
+  width: 100%;
+  padding: 0.8rem 0.3rem 0.25rem 0.3rem;
+  display: flex;
+  justify-content: space-between;
+  color: #C6C6C6;
+  background: white;
+  margin-bottom: 0.7rem; }
+  .content_1 > div:nth-child(1) {
+    width: 7.2rem; }
+    .content_1 > div:nth-child(1) > p {
+      margin: 0; }
+    .content_1 > div:nth-child(1) > p:nth-child(1) {
+      font-size: 0.55rem; }
+    .content_1 > div:nth-child(1) > p:nth-child(2) {
+      font-size: 0.45rem;
+      margin-top: 1rem; }
+      .content_1 > div:nth-child(1) > p:nth-child(2) > span {
+        font-size: 1.6rem;
+        line-height: 1.6rem;
+        color: #F85300; }
+  .content_1 > div:nth-child(2) {
+    width: 8.2rem; }
+    .content_1 > div:nth-child(2) > p {
+      margin: 0;
+      font-size: 0.55rem; }
+    .content_1 > div:nth-child(2) > img {
+      width: 100%;
+      margin-top: 0.3rem; }
+
+.content_2 {
+  width: 100%;
+  background: white;
+  margin-bottom: 0.7rem; }
+  .content_2 > ul > li > a {
+    display: flex;
+    align-items: center;
+    color: black; }
+    .content_2 > ul > li > a > img {
+      width: 1.2rem;
+      margin: 0.4rem 0.75rem; }
+    .content_2 > ul > li > a > div {
+      width: 13.45rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.6rem 0.6rem 0.6rem 0;
+      border-bottom: 1px solid #F8F8F8; }
+      .content_2 > ul > li > a > div span {
+        font-size: 0.55rem; }
+      .content_2 > ul > li > a > div > span:nth-child(1) {
+        font-size: 0.7rem;
+        line-height: 0.7rem; }
+      .content_2 > ul > li > a > div > div {
+        line-height: 0.5rem; }
+        .content_2 > ul > li > a > div > div > span {
+          line-height: 0.55rem; }
+        .content_2 > ul > li > a > div > div > span:nth-child(1) {
+          color: #FCBB99; }
+      .content_2 > ul > li > a > div .glyphicon {
+        color: #E5E5E5; }
+  .content_2 > ul > li > a:hover {
+    text-decoration: none; }
+
+.content_3 {
+  background: white; }
+  .content_3 > a {
+    display: flex;
+    align-items: center;
+    color: black; }
+    .content_3 > a > img {
+      width: 1.2rem;
+      margin: 0.4rem 0.75rem; }
+    .content_3 > a > div {
+      width: 13.45rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.6rem 0.6rem 0.6rem 0; }
+      .content_3 > a > div > span:nth-child(1) {
+        font-size: 0.7rem;
+        line-height: 0.7rem; }
+      .content_3 > a > div span:nth-child(2) {
+        font-size: 0.55rem;
+        color: #E5E5E5; }
+  .content_3 > a:hover {
+    text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */

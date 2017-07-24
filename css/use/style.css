@@ -1,0 +1,36 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background: #FFAC2E;
+  height: 2rem;
+  color: white;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 0.6rem;
+  font-size: 0.85rem; }
+  .header > li > a {
+    color: white; }
+
+.content {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1.6rem 0;
+  text-align: center; }
+  .content > div {
+    width: 50%;
+    margin: 0 auto; }
+    .content > div > img {
+      width: 100%; }
+  .content > p {
+    margin-top: 1.25rem;
+    margin-bottom: 0.9rem;
+    font-size: 0.7rem;
+    color: #ABABAB; }
+  .content > span {
+    font-size: 0.7rem;
+    color: #ABABAB; }
+    .content > span > a {
+      color: #77CDEF; }
+
+/*# sourceMappingURL=style.css.map */

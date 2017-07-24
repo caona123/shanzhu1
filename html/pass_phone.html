@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" href="../css/base.css" />
+		<link rel="stylesheet" href="../font-awesome/css/font-awesome.css" />
+		<link rel="stylesheet" href="../css/password/pass_phone/index.css" />
+		<script src="../js/password_rem.js"></script>
+		<script src="../js/zepto.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				$(".fasong").click(function(){
+					var i = 60;
+					var timer;
+					function fun(){
+						setInterval(function(){
+							i--;
+							if(i>=1){
+								$(".fasong").text("还有"+i+"秒");
+							}else if(i==0){
+								$(".fasong").text("验证超时");
+							}
+						},1000)
+					}
+					fun();
+				})
+			})
+		</script>
+	</head>
+	<body>
+		<!--头部-->
+		<div class="header">
+			<p><a href="pass_verify.html" class="fa fa-angle-left"></a></p>
+			<p>手机验证</p>
+		</div>
+		<div class="title">
+			<a href="#">
+				验证短信已发送到手机号:
+			</a>
+		</div>
+		<div class="append">152****2015</div>
+		 <div class="ipt">
+		 	<p class="xiaosuo fa fa-lock"></p>
+		 	<input type="text" placeholder="输入手机验证码" class="input"/>
+		 	<p class="fasong">
+		 		<a href="#">
+		 			发送验证码
+		 		</a>
+		 	</p>
+		 </div>
+		 <div class="login">
+		 	<p><a href="pass_change2.html">确定</a></p>
+		 </div>
+	</body>
+</html>

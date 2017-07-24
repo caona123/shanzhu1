@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0; }
+
+html.body {
+    width: 100%;
+    height: 100%; }
+
+.header {
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; }
+.header .head_1 {
+    width: 5%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
+    color: #333; }
+.header .head_2 {
+    width: 95%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.6rem;
+    color: #333; }
+
+.box {
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; }
+.box .ball {
+    width: 95%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; }
+.box .font {
+    width: 95%;
+    height: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 0.7rem;
+    color: #333; }
+.box .ipts {
+    width: 95%;
+    height: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    border-bottom: 1px solid #ffc830; }
+.box .ipts .ipts_1 {
+    width: 10%;
+    height: 2rem;
+    text-align: center;
+    line-height:2.3rem;
+
+}
+.box .ipts .ipts_1 span {
+    font-size: 0.8rem;
+    color: #ffc830; }
+.box .ipts .ipts_2 {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+.box .ipts .ipts_2 input {
+    width: 100%;
+    height: 60%;
+    border: none;
+    font-size: 0.5rem; }
+.box .ipts .ipts_3 {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+.box .ipts .ipts_3 span {
+    font-size: 0.6rem;
+    color: #ffc830; }
+.box .enter {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+.box .enter div {
+    width: 100%;
+    height: 2rem;
+    border-radius: 4%;
+    overflow: hidden; }
+.box .enter div input {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background: #ffd974;
+    font-size: 0.6rem;
+    border: none; }
+.block{
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 99;
+    display: none;
+}
+.in_box{
+    width:11rem;
+    height:6rem;
+    /*margin:0 auto;*/
+    border-radius: 5%;
+    background: #fff;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:220px;
+    left:15.5%;
+
+}
+.pp_one{
+    width:100%;
+    height:4rem;
+    font-size: 0.5rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pp_three{
+    width:100%;
+    height:2rem;
+    font-size: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.pp_three>a{
+    width:100%;
+    height:2rem;
+    color: #fffdff;
+    background: #ffd974;
+    text-align: center;
+    line-height:2rem;
+}
